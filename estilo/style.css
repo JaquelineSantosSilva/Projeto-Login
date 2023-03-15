@@ -104,12 +104,38 @@ div.campo > label{
     display: none;
 }
 
+div.campo > span {
+    color:rgb(3, 0, 0);
+    font-size: 2em;
+    width: 40px;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+}
+
+div.campo > input {
+    background-color: #48b393;
+    font: size 1em;
+    width: calc(100% - 47px); 
+    height:100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-8px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+
 form > div.campo {
-    background-color: #5f2082;
+    background-color:   #5f2082;
     display: block;
     width: 100%;
     height: 40px;
     border-radius: 5px;
-    margin: 5px 0px ;
+    margin: 5px ;
+    padding-top: 0px;
+    padding-bottom: 0px;
 
 }
